@@ -7,14 +7,9 @@ const teamMembers = [
       bio: 'A Filipino born and raised at the Kingdom Of Saudi Arabia and has such great ambitions for designs'
     },
     {
-      name: 'Jane Doe',
-      image: 'images/jane.jpeg',
+      name: 'Nik Meijer',
+      image: 'images/nik.jpeg',
       bio: 'Brilliant designer with a great sense of style'
-    },
-    {
-      name: 'John Smith',
-      image: 'images/john.jpeg',
-      bio: 'Expert coder and problem solver'
     }
   ];
   
