@@ -8,7 +8,7 @@ const teamMembers = [
     },
     {
       name: 'Nikolai Meijer',
-      image: 'images/jane.jpeg',
+      image: 'images/nik.jpg',
       bio: 'Brilliant designer with a great sense of style'
     },
   ];
