@@ -2,7 +2,6 @@
 
 // Define an array to hold the bio information for each team member
 const teamMembers = [
-
   {
     name: 'Kirk Caspe',
     image: 'images/kirk.jpg',
@@ -31,4 +30,5 @@ buttons.forEach((button) => {
     nameElement.textContent = teamMembers[index].name;
     bioElement.textContent = teamMembers[index].bio;
     imageElement.src = teamMembers[index].image;
-
+  });
+});
