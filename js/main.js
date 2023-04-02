@@ -12,6 +12,11 @@ const teamMembers = [
     image: 'images/nik.jpg',
     bio: 'Nikolai is a skilled designer who loves to create stunning visuals that bring brands to life. He spends his free time traveling and taking photos of the world around him.',
   },
+  {
+    name: 'Quatro',
+    image: 'images/quatro-team-logo.jpg',
+    bio: 'Hi, We are Quatro! back from the past, and fresher than ever. Want to learn about our awesome team? Click a button to get started!',
+  }
 ];
 
 // Get references to the name, bio, and image elements
