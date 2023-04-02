@@ -10,7 +10,7 @@ const teamMembers = [
   {
     name: 'Nikolai Meijer',
     image: 'images/nik.jpg',
-    bio: 'Nikolai is a skilled designer who loves to create stunning visuals that bring brands to life. He spends his free time traveling and taking photos of the world around him.',
+    bio: 'Nik is a designer, artist, car-guy who loves to create things that are visually stunning. One catch though, he is a master procrastinator...',
   },
   {
     name: 'Quatro',
