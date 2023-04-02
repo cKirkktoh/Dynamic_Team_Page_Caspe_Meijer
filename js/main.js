@@ -5,7 +5,7 @@ const teamMembers = [
   {
     name: 'Kirk Caspe',
     image: 'images/kirk.jpg',
-    bio: 'Kirk is a talented developer with a passion for creating beautiful and intuitive user experiences. When he\'s not coding, he can be found hiking in the mountains or playing board games with his family.',
+    bio: 'Kirk is a talented developer with a passion for creating beautiful and intuitive user experiences. When he\'s not coding, he can be found playing basketball, football and video games with his friends.',
   },
   {
     name: 'Nikolai Meijer',
