@@ -1,4 +1,52 @@
 /* main.css */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background: linear-gradient(to bottom right, #e27b1a, #cfe224);
+  color: #fff;
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+  background-color: #1b1e21;
+}
+
+header img {
+  width: 200px;
+  height: 200px;
+}
+
+nav {
+  margin-left: auto;
+  margin-right: 50px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav li {
+  margin-left: 32px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #1b1e21;
+  font-weight: bold;
+  font-size: 19px;
+  text-transform: uppercase;
+  transition: color 0.2s ease-in-out;
+}
+
+nav a:hover {
+  color: #fbb03b;
+}
 
 .team-member-image {
     width: 300px;
@@ -6,6 +54,7 @@
     border-width: 5px;
     border-radius: 50%;
     border-color: #69BC45;
+    margin-top: 50px;
   }
   
   .team-member-bio {
@@ -18,6 +67,7 @@
     display: flex;
     justify-content: center;
     margin-top: 40px;
+    margin-bottom: 40px;
   }
   
   .team-member-button {
@@ -35,3 +85,13 @@
     background-color: #0069d9;
   }
   
+  footer {
+    background-color: #1b1e21;
+    color: #fff;
+    padding: 64px 0;
+  }
+  
+  .footer-info h3 {
+    font-size: 32px;
+    margin-bottom: 32px;
+  }
