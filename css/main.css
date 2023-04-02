@@ -1,97 +1,108 @@
 /* main.css */
+
+/*
+Quatro Colours:
+Green - #69BC45 rgb(105, 188, 69)
+Orange - #F6921E rgb(246, 146, 30)
+Yellow - #FFF100 rgb(255, 241, 0)
+Red - #EC1C24 rgb(236, 28, 36)
+Pink - #FFBBDD rgb(255, 187, 221)
+*/
+
 body {
-  font-family: Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  background: linear-gradient(to bottom right, #e27b1a, #cfe224);
+  background: linear-gradient(to bottom right, #F6921E, #FFF100);
   color: #fff;
 }
-
 
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 12px 0;
+  padding: 12px;
   background-color: #1b1e21;
 }
 
 header img {
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-bottom: 30px;
 }
 
-nav {
-  margin-left: auto;
-  margin-right: 50px;
-}
-
-nav ul {
+.team-members {
   display: flex;
-  list-style: none;
+  justify-content: center;
+  align-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
 }
 
-nav li {
-  margin-left: 32px;
-}
-
-nav a {
-  text-decoration: none;
-  color: #1b1e21;
+.team-member h2 {
+  padding: 20px;
+  font-size: 42px;
   font-weight: bold;
-  font-size: 19px;
-  text-transform: uppercase;
-  transition: color 0.2s ease-in-out;
-}
-
-nav a:hover {
-  color: #fbb03b;
 }
 
 .team-member-image {
-    width: 300px;
-    height: 300px;
-    border-width: 5px;
-    border-radius: 50%;
-    border-color: #69BC45;
-    margin-top: 50px;
-  }
+  width: 300px;
+  height: 300px;
+  border-left: 5px solid #69BC45;
+  border-top:5px solid #F6921E;
+  border-right:5px solid #EC1C24;
+  border-bottom:5px solid #FFF100;
+  border-radius: 50%;
+  margin-top: 50px;
+}
   
-  .team-member-bio {
-    font-size: 18px;
-    line-height: 1.5;
-    margin-top: 20px;
-  }
+.team-member-bio {
+  padding: 10px;
+  border: 5px solid #F6921E;
+  background-color: rgba(246, 146, 30, 0.4);
+  font-size: 20px;
+  line-height: 1.5;
+  width: 600px;
+}
   
-  .team-member-buttons {
-    display: flex;
-    justify-content: center;
-    margin-top: 40px;
-    margin-bottom: 40px;
-  }
+.team-member-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
   
-  .team-member-button {
-    background-color: #007aff;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    margin: 0 10px;
-  }
+.team-member-button {
+  background-color: #007aff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 0 10px;
+}
   
-  .team-member-button:hover {
-    background-color: #0069d9;
-  }
+.team-member-button:hover {
+  background-color: #0069d9;
+}
   
-  footer {
-    background-color: #1b1e21;
-    color: #fff;
-    padding: 64px 0;
-  }
+.footer {
+  background-color: #1b1e21;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  bottom: 0;
+  height: 105px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
   
-  .footer-info h3 {
-    font-size: 32px;
-    margin-bottom: 32px;
-  }
+.footer p {
+  font-size: 18px;
+  padding: 20px;
+  margin-bottom: 32px;
+  margin-top: 32px;
+}
