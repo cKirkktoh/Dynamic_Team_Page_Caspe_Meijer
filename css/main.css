@@ -3,7 +3,9 @@
 .team-member-image {
     width: 300px;
     height: 300px;
+    border-width: 5px;
     border-radius: 50%;
+    border-color: #69BC45;
   }
   
   .team-member-bio {
